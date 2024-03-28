@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <title>Internship</title>
+</head>
+
+<body class="overflow-x-hidden">
+
+  <div class="fixed z-40 bg-white top-0 left-0 shadow-lg">
+    <!-- head -->
+    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto px-4 py-2">
+      <div class="container flex gap-4">
+        <img src="/assets/img/LogoBUMN.png" alt="Logo BUMN" class="max-h-20">
+        <img src="/assets/img/LogoPertamina.png" alt="Logo pertamina" class="max-h-20">
+        <img src="/assets/img/LogoRB.png" alt="Logo RB" class="max-h-20">
+      </div>
+    </div>
+
+    <!-- navbar -->
+    <nav class="w-screen bg-white border-gray-200 dark:bg-gray-900 justify-items-end">
+      <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+        <button data-collapse-toggle="navbar-default" type="button"
+          class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+          aria-controls="navbar-default" aria-expanded="false">
+          <span class="sr-only">Open main menu</span>
+          <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M1 1h15M1 7h15M1 13h15" />
+          </svg>
+        </button>
+        <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+          <ul
+            class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+            <li>
+              <a href="/index.html"
+                class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-cyan-400 md:p-0 dark:text-white md:dark:hover:text-cyan-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Beranda</a>
+            </li>
+            <li>
+              <a href="/mitra.html"
+                class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-cyan-400 md:p-0 dark:text-white md:dark:hover:text-cyan-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Mitra</a>
+            </li>
+
+            <li>
+              <a href="/internship.html"
+                class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-cyan-400 md:p-0 dark:text-cyan-400 md:dark:hover:text-cyan-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Internship</a>
+            </li>
+            <li>
+              <a href="/hubungi.html"
+                class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-cyan-400 md:p-0 dark:text-white md:dark:hover:text-cyan-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Hubungi</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <!-- Section Youtube-->
+  <section
+    class="mt-40 md:mt-36 xl:mt-0 w-full overflow-hidden bg-dark200 relative lg:h-auto lg:aspect-video h-auto aspect-[3/4] md:aspect-auto bg-cyan-500">
+    <div class="absolute flex flex-col h-full items-center w-full justify-center p-20 z-20">
+      <h2 class="font-bold text-slate-200 text-3xl md:text-6xl">Internship</h2>
+      <p class="font-semibold text-slate-200 text-lg md:text-xl text-center mt-5">
+        Rumah BUMN Pekanbaru juga menjadi wadah untuk anak muda berkembang 
+        <br>Mari bergabung dan belajar bersama Rumah BUMN Pekanbaru
+      </p>
+    </div>
+    <img src="./assets/pattern.svg" class="object-cover h-full"  alt="" srcset="">
+  </section>
+
+  <!-- Section Profil -->
+  <section class="p-10 md:p-14">
+    <div class="flex w-full flex-col items-center justify-center">
+      <h3 class="font-bold text-cyan-500 text-2xl md:text-4xl text-center w-full">Pilih Divisimu</h3>
+      <p class="mt-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto quas nisi amet voluptatem
+        voluptatibus, est nemo quo fugit impedit delectus.</p>
+
+      <div class="flex flex-col w-full px-4 md:px-10 mt-10 gap-5">
+        <div class="flex border-b-2 items-center w-full justify-between">
+          <p class="font-bold text-gray-900">IT Developer</p>
+          <p data-modal-target="it-modal" data-modal-toggle="it-modal"
+          class="block text-cyan-400 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg text-sm px-5 py-2.5 text-center cursor-pointer">See more</p>
+        </div>
+        <div class="flex border-b-2 items-center w-full justify-between">
+          <p class="font-bold text-gray-900">Web Developer</p>
+          <p data-modal-target="web-modal" data-modal-toggle="web-modal"
+          class="block text-cyan-400 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg text-sm px-5 py-2.5 text-center cursor-pointer">See more</p>
+        </div>
+        <div class="flex border-b-2 items-center w-full justify-between">
+          <p class="font-bold text-gray-900">Android Developer</p>
+          <p data-modal-target="android-modal" data-modal-toggle="android-modal"
+          class="block text-cyan-400 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg text-sm px-5 py-2.5 text-center cursor-pointer">See more</p>
+        </div>
+        <div class="flex border-b-2 items-center w-full justify-between">
+          <p class="font-bold text-gray-900">AI Developer</p>
+          <p data-modal-target="ai-modal" data-modal-toggle="ai-modal"
+          class="block text-cyan-400 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg text-sm px-5 py-2.5 text-center cursor-pointer">See more</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  
+  <section class="mt-20 border-t-4 border-cyan-600 flex flex-col w-full items-center justify-center">
+    <img src="/assets/img/LogoBUMN.png" class="w-40" />
+    <ul class="flex w-full justify-center items-center gap-4 pb-4">
+      <li>
+        <a href="">
+          <img class="w-8" src="./assets/instagram.svg" alt="">
+        </a>
+      </li>
+      <li>
+        <a href="">
+          <img class="w-8" src="./assets/linkedin.svg" alt="">
+        </a>
+      </li>
+      <li>
+        <a href="">
+          <img class="w-8" src="./assets/tiktok.svg" alt="">
+        </a>
+      </li>
+      <li>
+        <a href="">
+          <img class="w-8" src="./assets/phone-solid.svg" alt="">
+        </a>
+      </li>
+    </ul>
+  </section>
+
+  <!-- Modal -->
+  <div id="it-modal" tabindex="-1" aria-hidden="true"
+    class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full">
+    <div class="relative p-4 w-full max-w-2xl max-h-full">
+      <!-- Modal content -->
+      <div class="relative bg-white rounded-lg shadow">
+        <!-- Modal header -->
+        <div class="flex items-center justify-between p-4 md:p-5 border-b rounded-t">
+          <h3 class="text-xl font-semibold text-gray-900">
+            IT Developer
+          </h3>
+          <button type="button"
+            class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ms-auto inline-flex justify-center items-center"
+            data-modal-hide="it-modal">
+            <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+              viewBox="0 0 14 14">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6" />
+            </svg>
+            <span class="sr-only">Close modal</span>
+          </button>
+        </div>
+        <!-- Modal body -->
+        <div class="p-4 md:p-5 space-y-4">
+          <p class="text-base leading-relaxed text-gray-500">
+            With less than a month to go before the European Union enacts new consumer privacy laws for its
+            citizens, companies around the world are updating their terms of service agreements to comply.
+          </p>
+          <p class="text-base leading-relaxed text-gray-500">
+            The European Union’s General Data Protection Regulation (G.D.P.R.) goes into effect on May 25 and is
+            meant to ensure a common set of data rights in the European Union. It requires organizations to notify
+            users as soon as possible of high-risk data breaches that could personally affect them.
+          </p>
+        </div>
+        <!-- Modal footer -->
+        <div class="flex items-center p-4 md:p-5 border-t border-gray-200 rounded-b">
+          <a href="">
+            <button data-modal-hide="it-modal" type="button"
+            class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center">I
+            accept</button>
+          </a>
+          <button data-modal-hide="it-modal" type="button"
+            class="py-2.5 px-5 ms-3 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100">Decline</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="web-modal" tabindex="-1" aria-hidden="true"
+    class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full">
+    <div class="relative p-4 w-full max-w-2xl max-h-full">
+      <!-- Modal content -->
+      <div class="relative bg-white rounded-lg shadow">
+        <!-- Modal header -->
+        <div class="flex items-center justify-between p-4 md:p-5 border-b rounded-t">
+          <h3 class="text-xl font-semibold text-gray-900">
+            Web Developer
+          </h3>
+          <button type="button"
+            class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ms-auto inline-flex justify-center items-center"
+            data-modal-hide="web-modal">
+            <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+              viewBox="0 0 14 14">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6" />
+            </svg>
+            <span class="sr-only">Close modal</span>
+          </button>
+        </div>
+        <!-- Modal body -->
+        <div class="p-4 md:p-5 space-y-4">
+          <p class="text-base leading-relaxed text-gray-500">
+            With less than a month to go before the European Union enacts new consumer privacy laws for its
+            citizens, companies around the world are updating their terms of service agreements to comply.
+          </p>
+          <p class="text-base leading-relaxed text-gray-500">
+            The European Union’s General Data Protection Regulation (G.D.P.R.) goes into effect on May 25 and is
+            meant to ensure a common set of data rights in the European Union. It requires organizations to notify
+            users as soon as possible of high-risk data breaches that could personally affect them.
+          </p>
+        </div>
+        <!-- Modal footer -->
+        <div class="flex items-center p-4 md:p-5 border-t border-gray-200 rounded-b">
+          <a href="">
+            <button data-modal-hide="web-modal" type="button"
+            class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center">I
+            accept</button>
+          </a>
+          <button data-modal-hide="web-modal" type="button"
+            class="py-2.5 px-5 ms-3 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100">Decline</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="android-modal" tabindex="-1" aria-hidden="true"
+    class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full">
+    <div class="relative p-4 w-full max-w-2xl max-h-full">
+      <!-- Modal content -->
+      <div class="relative bg-white rounded-lg shadow">
+        <!-- Modal header -->
+        <div class="flex items-center justify-between p-4 md:p-5 border-b rounded-t">
+          <h3 class="text-xl font-semibold text-gray-900">
+            Android Developer
+          </h3>
+          <button type="button"
+            class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ms-auto inline-flex justify-center items-center"
+            data-modal-hide="android-modal">
+            <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+              viewBox="0 0 14 14">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6" />
+            </svg>
+            <span class="sr-only">Close modal</span>
+          </button>
+        </div>
+        <!-- Modal body -->
+        <div class="p-4 md:p-5 space-y-4">
+          <p class="text-base leading-relaxed text-gray-500">
+            With less than a month to go before the European Union enacts new consumer privacy laws for its
+            citizens, companies around the world are updating their terms of service agreements to comply.
+          </p>
+          <p class="text-base leading-relaxed text-gray-500">
+            The European Union’s General Data Protection Regulation (G.D.P.R.) goes into effect on May 25 and is
+            meant to ensure a common set of data rights in the European Union. It requires organizations to notify
+            users as soon as possible of high-risk data breaches that could personally affect them.
+          </p>
+        </div>
+        <!-- Modal footer -->
+        <div class="flex items-center p-4 md:p-5 border-t border-gray-200 rounded-b">
+          <a href="">
+            <button data-modal-hide="android-modal" type="button"
+            class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center">I
+            accept</button>
+          </a>
+          <button data-modal-hide="android-modal" type="button"
+            class="py-2.5 px-5 ms-3 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100">Decline</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="ai-modal" tabindex="-1" aria-hidden="true"
+    class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full">
+    <div class="relative p-4 w-full max-w-2xl max-h-full">
+      <!-- Modal content -->
+      <div class="relative bg-white rounded-lg shadow">
+        <!-- Modal header -->
+        <div class="flex items-center justify-between p-4 md:p-5 border-b rounded-t">
+          <h3 class="text-xl font-semibold text-gray-900">
+            AI Developer
+          </h3>
+          <button type="button"
+            class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ms-auto inline-flex justify-center items-center"
+            data-modal-hide="ai-modal">
+            <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+              viewBox="0 0 14 14">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6" />
+            </svg>
+            <span class="sr-only">Close modal</span>
+          </button>
+        </div>
+        <!-- Modal body -->
+        <div class="p-4 md:p-5 space-y-4">
+          <p class="text-base leading-relaxed text-gray-500">
+            With less than a month to go before the European Union enacts new consumer privacy laws for its
+            citizens, companies around the world are updating their terms of service agreements to comply.
+          </p>
+          <p class="text-base leading-relaxed text-gray-500">
+            The European Union’s General Data Protection Regulation (G.D.P.R.) goes into effect on May 25 and is
+            meant to ensure a common set of data rights in the European Union. It requires organizations to notify
+            users as soon as possible of high-risk data breaches that could personally affect them.
+          </p>
+        </div>
+        <!-- Modal footer -->
+        <div class="flex items-center p-4 md:p-5 border-t border-gray-200 rounded-b">
+          <a href="">
+            <button data-modal-hide="ai-modal" type="button"
+            class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center">I
+            accept</button>
+          </a>
+          <button data-modal-hide="ai-modal" type="button"
+            class="py-2.5 px-5 ms-3 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100">Decline</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+</body>
+
+</html>
